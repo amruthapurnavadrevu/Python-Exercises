@@ -56,3 +56,10 @@ print(f"Removing the first occurrence of 6.5: {new_list}")
 #Delete
 del new_list[2]
 print(f"deleting the item in 2nd position: {new_list}")
+
+#Range
+
+print(list(range(10)))
+print(list(range(5,10)))
+print(list(range(5,10,2)))
+print(list(range(10,1,-1)))
