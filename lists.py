@@ -59,7 +59,7 @@ print(f"deleting the item in 2nd position: {new_list}")
 
 #Range
 
-print(list(range(10)))
-print(list(range(5,10)))
-print(list(range(5,10,2)))
-print(list(range(10,1,-1)))
+print(list(range(10))) #Starts with 0, not including 10
+print(list(range(5,10))) #Starts with 5, not including 10
+print(list(range(5,10,2))) #Starts with 5, not including 10, with a step of 2
+print(list(range(10,1,-1))) #Starts with 10, not including 1, with a step of -1
