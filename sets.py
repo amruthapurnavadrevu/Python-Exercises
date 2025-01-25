@@ -26,8 +26,6 @@ print(f"- operation: {my_set - new_set}")
 print(f"<= operation: {my_set <= new_set}")
 
 #Methods
-
-#Union, |
 print(f"Union: {my_set.union(new_set)}")
 
 #Intersection, &
